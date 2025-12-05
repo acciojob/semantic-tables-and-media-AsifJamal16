@@ -6,7 +6,6 @@
 </head>
 <body>
 
-    <!-- semantic table -->
     <table>
         <thead>
             <tr>
@@ -31,10 +30,8 @@
         </tbody>
     </table>
 
-    <!-- heading between table and list -->
     <h2>List of medias</h2>
 
-    <!-- ordered list with specific media items -->
     <ol>
         <li>
             <img src="https://picsum.photos/id/123/200/300" alt="random sample image">
@@ -47,9 +44,8 @@
         </li>
 
         <li>
-            <audio controls>
-                <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg">
-            </audio>
+            <!-- audio must have src directly to satisfy Cypress test -->
+            <audio controls src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg"></audio>
         </li>
     </ol>
 
